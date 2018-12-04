@@ -1,0 +1,33 @@
+Everything is embedded within the submission file, you can run my program under my submission directory, with "python SVM.py" and "python NB.py"
+The "training_prep" and "testing_prep" are preprocessed .eml file using given ExtractContent.py file.
+
+3.1: you can run my program to see those value, here is result copy from cmd
+For NB:
+TP: 895
+TN: 175
+FP: 246
+FN: 11
+False Positive Rate: 0.5843230403800475
+False Negative Rate: 0.012141280353200883
+Recall: 0.9878587196467992
+Precision: 0.7843996494303243
+F-Score: 0.8744504152418173
+
+For SVM:
+TP: 900.0
+TN: 245.0
+FP: 176.0
+FN: 6.0
+False Positive Rate: 0.4180522565320665
+False Negative Rate: 0.006622516556291391
+Recall: 0.9933774834437086
+Precision: 0.8364312267657993
+F-Score: 0.9081735620585267
+3.2
+SVM provide a little bit better performance the program is not underfit or overfit, because the cross-validation result has the similar value as testing output.
+3.3
+The parameter I use for svm is np x-axis length which means how many features are used in the training phase. I divide the eml file into 5 folders and each time use 4 folders to train and one folder to validate and try to use different feature number. Turns out the more feature I use will cause a longer runtime, but accuracy reduce when it¡¯s too big. So, I finally choose 4000 as my result which provide a good runtime and accuracy.
+3.4
+SVM indicate that instance ¡°easy money to get free iPhone with no cost¡± is spam
+Which is as same as NB
+ 
