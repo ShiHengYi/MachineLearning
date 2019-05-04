@@ -2,7 +2,6 @@ How to run my code: just run "python LSTM.py" to run the code within the same di
 If using other data set please rename the data set to "kddcup.data.corrected" or change the hard coding data set name in LSTM.py
     data = pd.read_csv("kddcup.data.corrected", names = col_names)
 When executing the program, there will be serial warning messages, which will not cause any side-effect.
-Data loading will take about 30s on purdue scholar machine.
 
 Citation:
 https://www.researchgate.net/publication/279770740_Applying_long_short-term_memory_recurrent_neural_networks_to_intrusion_detection
