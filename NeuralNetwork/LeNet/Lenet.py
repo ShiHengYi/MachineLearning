@@ -2,8 +2,6 @@
 # coding: utf-8
 
 # In[8]:
-
-
 from tensorflow.examples.tutorials.mnist import input_data
 import numpy as np
 

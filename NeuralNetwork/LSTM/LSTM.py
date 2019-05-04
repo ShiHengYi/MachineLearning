@@ -78,10 +78,7 @@ def load_data():
     y_test = one_hot_label[len_train,:]
     print("Data loading finished!")
     return x_train,y_train,x_test,y_test,len_train;
-
-
 # In[4]:
-
 def LSTM(X, weight, bias):
     X = tf.unstack(X, 8, 1)
     output_list=[]
