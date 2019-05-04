@@ -4,7 +4,6 @@ If using other data set please rename the data set to "kddcup.data.corrected" or
 When executing the program, there will be serial warning messages, which will not cause any side-effect.
 Data loading will take about 30s on purdue scholar machine.
 
-
 Citation:
 https://www.researchgate.net/publication/279770740_Applying_long_short-term_memory_recurrent_neural_networks_to_intrusion_detection
 https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.loc.html
